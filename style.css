@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(#12c2e9, #c471ed);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.full-container {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+/* LEFT SIDE */
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  height: 50%;
+  justify-content: space-around;
+}
+
+.title {
+  font-family: Impact;
+  width: 800px;
+  height: 100px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 100px;
+  line-height: 100px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  flex-wrap: nowrap;
+}
+
+
+#start-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #002261;
+  margin: 20px;
+  color: white;
+  font-family: Impact;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  border: none;
+}
+
+#reset-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #50017a;
+  margin: 20px;
+  color: white;
+  font-family: Impact;
+  letter-spacing: 0.2em;
+  font-size: 18px;
+  border: none;
+}
+
+.score-text {
+  font-family: Impact;
+  width: 631px;
+  height: 100px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+}
+
+.arrows-container{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow {
+  height: 50px;
+  width: 50px;
+  background-color: #002261;
+  border-radius: 5px;
+  margin: 0.15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #023492;
+}
+
+.arrow p{
+  font-family: Impact;
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 5px;
+
+}
+
+.arrow-text{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  font-size: 9px !important;
+}
+
+.bottom-arrows{
+  display: flex;
+}
+
+.intruction {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 12px;
+  color: #002261;
+}
+
+.github-user{
+  display: flex;
+  align-items: center;
+}
+
+.github-user img{
+  height: 30px;
+  margin-right: 10px;
+}
+
+.github-user p a{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* RIGHT SIDE */
+
+.right-container {
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+}
+
+.grid {
+  width: 400px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  outline: 0.2px solid rgb(56, 56, 56);
+}
+
+.grid div {
+  height: 40px;
+  width: 40px;
+}
+
+.taken:nth-last-child(-n + 10) {
+  outline: none !important;
+}
+
+.tetromino {
+  background-color: blue;
+  outline: 0.2px solid rgb(56, 56, 56);
+  border-radius: 5px;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+.mini-grid div {
+  width: 40px;
+  height: 40px;
+}
